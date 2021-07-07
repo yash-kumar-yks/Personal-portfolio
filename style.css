@@ -1,0 +1,102 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #2e72a1;
+}
+
+#logo, .project-img {
+    max-height: 300px;
+}
+
+#fork img{
+    height: 25px;
+    margin-bottom: 25px;
+    filter: invert(1);
+}
+
+#sep {
+    height: 75px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+.margin2 {
+    margin-bottom: 45px;
+}
+
+.bg-1 {
+    background-color: #f7f2f2; /* White */
+    color: #2e7885;
+}
+
+.bg-2 {
+    background-color: #2e72a1; /* Blue */
+    color: #ffffff;
+}
+
+.card {
+    color: black;
+    text-align: left;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.bg-3 {
+    background-color: #30312a; /* Black */
+    color: #ffffff;
+}
+
+.bg-4 {
+    background-color: #343a40; /* Dark Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    z-index: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #2e72a1 !important;
+}
+#resume{
+    margin-left: 800px;
+    background-color: #343a40;
+}
+#LinkedIn{
+    padding-left: 1px;}
+    #facebook{
+        padding-left: 50px;}
+        #twitter{
+            padding-left: 50px;}
+/* #social .a{
+    align-content: space-between  ;
+    display :flex;
+    justify-content: center;
+} */
