@@ -71,8 +71,16 @@ a {
     padding-bottom: 50px;
 }
 
+.imageYash{
+    position: relative;
+    margin-top: 40px;
+}
+
 .navbar {
-    z-index: 1;
+    z-index: 3;
+    top: 0px;
+    position: fixed;
+    width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
@@ -89,14 +97,25 @@ a {
     margin-left: 800px;
     background-color: #343a40;
 }
-#LinkedIn{
+/* #LinkedIn{
     padding-left: 1px;}
     #facebook{
         padding-left: 50px;}
         #twitter{
-            padding-left: 50px;}
-/* #social .a{
-    align-content: space-between  ;
-    display :flex;
+            padding-left: 50px;} */
+
+
+.edit_socials{
+    display: flex;
     justify-content: center;
-} */
+    flex-direction: column;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding : 0px 400px;
+}
+
+
